@@ -1,0 +1,302 @@
+[
+  {
+    "id": "Robert Langer",
+    "initials": "RL",
+    "role": "Institute Professor, MIT",
+    "category": "academic",
+    "orgs": ["MIT", "Wyss Institute", "Moderna", "Alnylam", "Intellia", "Beam Tx", "Flagship Pioneering"],
+    "notes": "Most cited engineer in history. Co-founded Moderna.",
+    "last_updated": "2025-01-01",
+    "sources": ["https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=DEF+14A"]
+  },
+  {
+    "id": "Noubar Afeyan",
+    "initials": "NA",
+    "role": "CEO, Flagship Pioneering",
+    "category": "vc",
+    "orgs": ["Flagship Pioneering", "Moderna", "Relay Tx", "Recursion", "MIT"],
+    "notes": "Founded Flagship Pioneering. Board chair at Moderna.",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "David Berry",
+    "initials": "DB",
+    "role": "Partner, Flagship Pioneering",
+    "category": "vc",
+    "orgs": ["Flagship Pioneering", "Moderna", "Relay Tx", "Insitro"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Geoffrey von Maltzahn",
+    "initials": "GvM",
+    "role": "Partner, Flagship Pioneering",
+    "category": "vc",
+    "orgs": ["Flagship Pioneering", "Moderna", "Beam Tx", "Blueprint Med"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Robert Nelsen",
+    "initials": "RN",
+    "role": "Co-founder, ARCH Venture",
+    "category": "vc",
+    "orgs": ["ARCH Venture", "Recursion", "Intellia", "CRISPR Tx", "Editas Medicine"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Sandra Horning",
+    "initials": "SH",
+    "role": "Former CMO, Genentech",
+    "category": "executive",
+    "orgs": ["Roche/Genentech", "Regeneron", "Biogen", "Blueprint Med", "Pfizer"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "David Brennan",
+    "initials": "DvB",
+    "role": "Former CEO, AstraZeneca",
+    "category": "executive",
+    "orgs": ["AstraZeneca", "BioNTech", "Regeneron", "Alnylam", "J&J"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Nancy Thornberry",
+    "initials": "NT",
+    "role": "Former EVP Research, Merck",
+    "category": "executive",
+    "orgs": ["Merck", "Vertex", "Alnylam", "Blueprint Med", "Third Rock Ventures"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Jay Flatley",
+    "initials": "JF",
+    "role": "Former CEO, Illumina",
+    "category": "executive",
+    "orgs": ["Illumina", "Recursion", "AbCellera", "Relay Tx", "Nvidia"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Helen Lane",
+    "initials": "HL",
+    "role": "Former EVP, Novartis",
+    "category": "executive",
+    "orgs": ["Novartis", "Biogen", "Vertex", "BioNTech", "Eli Lilly"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Marc Tessier-Lavigne",
+    "initials": "MTL",
+    "role": "Former President, Stanford / Rockefeller",
+    "category": "academic",
+    "orgs": ["Stanford", "Rockefeller", "Intellia", "Beam Tx", "Biogen", "Roche/Genentech"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Feng Zhang",
+    "initials": "FZ",
+    "role": "Professor, Broad Institute / MIT",
+    "category": "academic",
+    "orgs": ["Broad Institute", "MIT", "Intellia", "Beam Tx", "Editas Medicine", "CRISPR Tx"],
+    "notes": "Pioneer of CRISPR-Cas9 in eukaryotic cells.",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "David Liu",
+    "initials": "DL",
+    "role": "Professor, Broad Institute / Harvard",
+    "category": "academic",
+    "orgs": ["Broad Institute", "Harvard", "Beam Tx", "Prime Medicine", "Editas Medicine"],
+    "notes": "Inventor of base editing and prime editing.",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Jennifer Doudna",
+    "initials": "JD",
+    "role": "Professor, UC Berkeley",
+    "category": "academic",
+    "orgs": ["UC Berkeley", "Broad Institute", "Intellia", "CRISPR Tx", "Editas Medicine"],
+    "notes": "Nobel Prize 2020. Co-inventor of CRISPR-Cas9.",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "George Church",
+    "initials": "GC",
+    "role": "Professor, Harvard / Wyss Institute",
+    "category": "academic",
+    "orgs": ["Harvard", "Wyss Institute", "Editas Medicine", "Beam Tx", "Egenesis"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Cynthia Kenyon",
+    "initials": "CK",
+    "role": "VP Research, Calico / UCSF",
+    "category": "academic",
+    "orgs": ["UCSF", "Relay Tx", "Recursion", "Google/Alphabet"],
+    "notes": "Pioneer of longevity research.",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Eric Topol",
+    "initials": "ET",
+    "role": "Director, Scripps Research",
+    "category": "academic",
+    "orgs": ["Recursion", "AbCellera", "Insitro", "Illumina"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Pardis Sabeti",
+    "initials": "PS",
+    "role": "Professor, Harvard / Broad Institute",
+    "category": "academic",
+    "orgs": ["Harvard", "Broad Institute", "Insitro", "AbCellera"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Anne Wojcicki",
+    "initials": "AW",
+    "role": "CEO, 23andMe",
+    "category": "executive",
+    "orgs": ["23andMe", "Google/Alphabet", "Stanford"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Ali Bhatt",
+    "initials": "AB",
+    "role": "Former Commissioner, FDA",
+    "category": "regulatory",
+    "orgs": ["Moderna", "AbCellera", "Blueprint Med", "Pfizer"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Kathryn Bowsher",
+    "initials": "KB",
+    "role": "Venture Partner, Sofinnova",
+    "category": "vc",
+    "orgs": ["Sofinnova", "Intellia", "Alnylam", "Editas Medicine"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Eric Schmidt",
+    "initials": "ES",
+    "role": "Former CEO, Google; Schmidt Futures",
+    "category": "executive",
+    "orgs": ["Google/Alphabet", "Broad Institute", "Recursion", "Insitro", "Microsoft"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Demis Hassabis",
+    "initials": "DH",
+    "role": "CEO, Google DeepMind",
+    "category": "executive",
+    "orgs": ["Google/Alphabet", "Recursion", "Insitro", "OpenAI"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Shirley Tilghman",
+    "initials": "ST",
+    "role": "Former President, Princeton",
+    "category": "academic",
+    "orgs": ["Princeton", "Merck", "Bristol Myers", "Pfizer"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Sam Altman",
+    "initials": "SA",
+    "role": "CEO, OpenAI",
+    "category": "executive",
+    "orgs": ["OpenAI", "Microsoft", "Pfizer", "a16z Bio"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Vivek Ramaswamy",
+    "initials": "VR",
+    "role": "Co-founder, Roivant Sciences",
+    "category": "executive",
+    "orgs": ["ARCH Venture", "RA Capital", "GSK", "Sanofi"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Bonnie Bassler",
+    "initials": "BB",
+    "role": "Professor, Princeton / HHMI",
+    "category": "academic",
+    "orgs": ["Princeton", "Pfizer", "J&J", "Merck"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Philip Sharp",
+    "initials": "PHS",
+    "role": "Institute Professor Emeritus, MIT",
+    "category": "academic",
+    "orgs": ["MIT", "Biogen", "Alnylam", "Third Rock Ventures"],
+    "notes": "Nobel Prize 1993. Co-founded Biogen.",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Dennis Ausiello",
+    "initials": "DA",
+    "role": "Chief of Medicine Emeritus, MGH / Harvard",
+    "category": "academic",
+    "orgs": ["Harvard", "Pfizer", "Bristol Myers", "Vertex"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  },
+  {
+    "id": "Claire Fraser",
+    "initials": "CF",
+    "role": "Professor, U Maryland / Former JCVI",
+    "category": "academic",
+    "orgs": ["Johns Hopkins", "Pfizer", "Illumina", "AbCellera"],
+    "notes": "",
+    "last_updated": "2025-01-01",
+    "sources": []
+  }
+]
