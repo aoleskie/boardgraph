@@ -1,302 +1,1007 @@
 [
   {
-    "id": "Robert Langer",
-    "initials": "RL",
-    "role": "Institute Professor, MIT",
-    "category": "academic",
-    "orgs": ["MIT", "Wyss Institute", "Moderna", "Alnylam", "Intellia", "Beam Tx", "Flagship Pioneering"],
-    "notes": "Most cited engineer in history. Co-founded Moderna.",
-    "last_updated": "2025-01-01",
-    "sources": ["https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=DEF+14A"]
-  },
-  {
-    "id": "Noubar Afeyan",
-    "initials": "NA",
-    "role": "CEO, Flagship Pioneering",
-    "category": "vc",
-    "orgs": ["Flagship Pioneering", "Moderna", "Relay Tx", "Recursion", "MIT"],
-    "notes": "Founded Flagship Pioneering. Board chair at Moderna.",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "David Berry",
-    "initials": "DB",
-    "role": "Partner, Flagship Pioneering",
-    "category": "vc",
-    "orgs": ["Flagship Pioneering", "Moderna", "Relay Tx", "Insitro"],
-    "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Geoffrey von Maltzahn",
-    "initials": "GvM",
-    "role": "Partner, Flagship Pioneering",
-    "category": "vc",
-    "orgs": ["Flagship Pioneering", "Moderna", "Beam Tx", "Blueprint Med"],
-    "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Robert Nelsen",
-    "initials": "RN",
-    "role": "Co-founder, ARCH Venture",
-    "category": "vc",
-    "orgs": ["ARCH Venture", "Recursion", "Intellia", "CRISPR Tx", "Editas Medicine"],
-    "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Sandra Horning",
-    "initials": "SH",
-    "role": "Former CMO, Genentech",
+    "id": "Carolyn Bertozzi",
+    "initials": "CB",
+    "role": "Independent Director",
     "category": "executive",
-    "orgs": ["Roche/Genentech", "Regeneron", "Biogen", "Blueprint Med", "Pfizer"],
+    "orgs": [
+      "OmniAb, Inc.",
+      "Eli Lilly"
+    ],
     "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2025",
+    "director_until": ""
   },
   {
-    "id": "David Brennan",
-    "initials": "DvB",
-    "role": "Former CEO, AstraZeneca",
+    "id": "William Kaelin, Jr.",
+    "initials": "WKJ",
+    "role": "Independent Director",
     "category": "executive",
-    "orgs": ["AstraZeneca", "BioNTech", "Regeneron", "Alnylam", "J&J"],
+    "orgs": [
+      "IQVIA Holdings Inc.",
+      "Eli Lilly"
+    ],
     "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2012",
+    "director_until": ""
   },
   {
-    "id": "Nancy Thornberry",
-    "initials": "NT",
-    "role": "Former EVP Research, Merck",
+    "id": "Jon Moeller",
+    "initials": "JM",
+    "role": "Independent Director",
     "category": "executive",
-    "orgs": ["Merck", "Vertex", "Alnylam", "Blueprint Med", "Third Rock Ventures"],
+    "orgs": [
+      "Procter & Gamble Company",
+      "Eli Lilly"
+    ],
     "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2024",
+    "director_until": ""
   },
   {
-    "id": "Jay Flatley",
-    "initials": "JF",
-    "role": "Former CEO, Illumina",
+    "id": "David Ricks",
+    "initials": "DR",
+    "role": "President, CEO and Chair",
     "category": "executive",
-    "orgs": ["Illumina", "Recursion", "AbCellera", "Relay Tx", "Nvidia"],
+    "orgs": [
+      "Adobe Inc.",
+      "Eli Lilly"
+    ],
     "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2017",
+    "director_until": ""
   },
   {
-    "id": "Helen Lane",
-    "initials": "HL",
-    "role": "Former EVP, Novartis",
-    "category": "executive",
-    "orgs": ["Novartis", "Biogen", "Vertex", "BioNTech", "Eli Lilly"],
-    "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Marc Tessier-Lavigne",
-    "initials": "MTL",
-    "role": "Former President, Stanford / Rockefeller",
-    "category": "academic",
-    "orgs": ["Stanford", "Rockefeller", "Intellia", "Beam Tx", "Biogen", "Roche/Genentech"],
-    "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Feng Zhang",
-    "initials": "FZ",
-    "role": "Professor, Broad Institute / MIT",
-    "category": "academic",
-    "orgs": ["Broad Institute", "MIT", "Intellia", "Beam Tx", "Editas Medicine", "CRISPR Tx"],
-    "notes": "Pioneer of CRISPR-Cas9 in eukaryotic cells.",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "David Liu",
-    "initials": "DL",
-    "role": "Professor, Broad Institute / Harvard",
-    "category": "academic",
-    "orgs": ["Broad Institute", "Harvard", "Beam Tx", "Prime Medicine", "Editas Medicine"],
-    "notes": "Inventor of base editing and prime editing.",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Jennifer Doudna",
-    "initials": "JD",
-    "role": "Professor, UC Berkeley",
-    "category": "academic",
-    "orgs": ["UC Berkeley", "Broad Institute", "Intellia", "CRISPR Tx", "Editas Medicine"],
-    "notes": "Nobel Prize 2020. Co-inventor of CRISPR-Cas9.",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "George Church",
-    "initials": "GC",
-    "role": "Professor, Harvard / Wyss Institute",
-    "category": "academic",
-    "orgs": ["Harvard", "Wyss Institute", "Editas Medicine", "Beam Tx", "Egenesis"],
-    "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Cynthia Kenyon",
-    "initials": "CK",
-    "role": "VP Research, Calico / UCSF",
-    "category": "academic",
-    "orgs": ["UCSF", "Relay Tx", "Recursion", "Google/Alphabet"],
-    "notes": "Pioneer of longevity research.",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Eric Topol",
-    "initials": "ET",
-    "role": "Director, Scripps Research",
-    "category": "academic",
-    "orgs": ["Recursion", "AbCellera", "Insitro", "Illumina"],
-    "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Pardis Sabeti",
-    "initials": "PS",
-    "role": "Professor, Harvard / Broad Institute",
-    "category": "academic",
-    "orgs": ["Harvard", "Broad Institute", "Insitro", "AbCellera"],
-    "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Anne Wojcicki",
-    "initials": "AW",
-    "role": "CEO, 23andMe",
-    "category": "executive",
-    "orgs": ["23andMe", "Google/Alphabet", "Stanford"],
-    "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Ali Bhatt",
-    "initials": "AB",
-    "role": "Former Commissioner, FDA",
-    "category": "regulatory",
-    "orgs": ["Moderna", "AbCellera", "Blueprint Med", "Pfizer"],
-    "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Kathryn Bowsher",
+    "id": "Katherine Baicker",
     "initials": "KB",
-    "role": "Venture Partner, Sofinnova",
-    "category": "vc",
-    "orgs": ["Sofinnova", "Intellia", "Alnylam", "Editas Medicine"],
-    "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Eric Schmidt",
-    "initials": "ES",
-    "role": "Former CEO, Google; Schmidt Futures",
+    "role": "Independent Director",
     "category": "executive",
-    "orgs": ["Google/Alphabet", "Broad Institute", "Recursion", "Insitro", "Microsoft"],
+    "orgs": [
+      "Eli Lilly"
+    ],
     "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2011",
+    "director_until": ""
   },
   {
-    "id": "Demis Hassabis",
-    "initials": "DH",
-    "role": "CEO, Google DeepMind",
+    "id": "J. Erik Fyrwald",
+    "initials": "JEF",
+    "role": "Independent Director",
     "category": "executive",
-    "orgs": ["Google/Alphabet", "Recursion", "Insitro", "OpenAI"],
+    "orgs": [
+      "International Flavors & Fragrances Inc.",
+      "Eli Lilly"
+    ],
     "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2005",
+    "director_until": ""
   },
   {
-    "id": "Shirley Tilghman",
-    "initials": "ST",
-    "role": "Former President, Princeton",
-    "category": "academic",
-    "orgs": ["Princeton", "Merck", "Bristol Myers", "Pfizer"],
-    "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
-  },
-  {
-    "id": "Sam Altman",
-    "initials": "SA",
-    "role": "CEO, OpenAI",
+    "id": "Jamere Jackson",
+    "initials": "JJ",
+    "role": "Independent Director",
     "category": "executive",
-    "orgs": ["OpenAI", "Microsoft", "Pfizer", "a16z Bio"],
+    "orgs": [
+      "Eli Lilly"
+    ],
     "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2016",
+    "director_until": ""
   },
   {
-    "id": "Vivek Ramaswamy",
-    "initials": "VR",
-    "role": "Co-founder, Roivant Sciences",
+    "id": "Gabrielle Sulzberger",
+    "initials": "GS",
+    "role": "Independent Director",
     "category": "executive",
-    "orgs": ["ARCH Venture", "RA Capital", "GSK", "Sanofi"],
+    "orgs": [
+      "Mastercard Incorporated",
+      "Eli Lilly"
+    ],
     "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2021",
+    "director_until": ""
   },
   {
-    "id": "Bonnie Bassler",
-    "initials": "BB",
-    "role": "Professor, Princeton / HHMI",
-    "category": "academic",
-    "orgs": ["Princeton", "Pfizer", "J&J", "Merck"],
+    "id": "Ralph Alvarez",
+    "initials": "RA",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Traeger, Inc.",
+      "Lowe's Companies, Inc.",
+      "Eli Lilly",
+      "First Watch Restaurant Group, Inc."
+    ],
     "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2009",
+    "director_until": ""
   },
   {
-    "id": "Philip Sharp",
-    "initials": "PHS",
-    "role": "Institute Professor Emeritus, MIT",
-    "category": "academic",
-    "orgs": ["MIT", "Biogen", "Alnylam", "Third Rock Ventures"],
-    "notes": "Nobel Prize 1993. Co-founded Biogen.",
-    "last_updated": "2025-01-01",
-    "sources": []
+    "id": "Mary Lynne Hedley",
+    "initials": "MLH",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Centessa Pharmaceuticals plc",
+      "Eli Lilly",
+      "VEEVA Systems Inc."
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2022",
+    "director_until": ""
   },
   {
-    "id": "Dennis Ausiello",
-    "initials": "DA",
-    "role": "Chief of Medicine Emeritus, MGH / Harvard",
-    "category": "academic",
-    "orgs": ["Harvard", "Pfizer", "Bristol Myers", "Vertex"],
+    "id": "Kimberly Johnson",
+    "initials": "KJ",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Eli Lilly"
+    ],
     "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2021",
+    "director_until": ""
   },
   {
-    "id": "Claire Fraser",
-    "initials": "CF",
-    "role": "Professor, U Maryland / Former JCVI",
-    "category": "academic",
-    "orgs": ["Johns Hopkins", "Pfizer", "Illumina", "AbCellera"],
+    "id": "Juan Luciano",
+    "initials": "JL",
+    "role": "Lead Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Eli Lilly",
+      "Archer-Daniels-Midland Company"
+    ],
     "notes": "",
-    "last_updated": "2025-01-01",
-    "sources": []
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2016",
+    "director_until": ""
+  },
+  {
+    "id": "Hubert Joly",
+    "initials": "HJ",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "S&P Global, Inc.",
+      "HEC Paris",
+      "Johnson & Johnson",
+      "New York Public Library",
+      "Sciences Po American Foundation"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2019",
+    "director_until": ""
+  },
+  {
+    "id": "Jennifer A. Doudna",
+    "initials": "JAD",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "Intellia Therapeutics, Inc.",
+      "Caribou Biosciences, Inc.",
+      "Johnson & Johnson",
+      "Tempus AI, Inc.",
+      "Tempus AI"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2018",
+    "director_until": ""
+  },
+  {
+    "id": "Joaquin Duato",
+    "initials": "JD",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "New Jersey CEO Council",
+      "Johnson & Johnson",
+      "Business Council",
+      "Business Roundtable",
+      "Spain-U.S. Chamber of Commerce"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2022",
+    "director_until": ""
+  },
+  {
+    "id": "Marillyn A. Hewson",
+    "initials": "MAH",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "Chevron Corporation",
+      "Johnson & Johnson"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2019",
+    "director_until": ""
+  },
+  {
+    "id": "Mark B. McClellan",
+    "initials": "MBM",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "United States of Care",
+      "Alignment Healthcare",
+      "Johnson & Johnson",
+      "National Alliance for Hispanic Health",
+      "Cigna Corporation",
+      "Research! America",
+      "PrognomIQ, Inc."
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2013",
+    "director_until": ""
+  },
+  {
+    "id": "Mark A. Weinberger",
+    "initials": "MAW",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "Teneo",
+      "MetLife Inc.",
+      "Stone Canyon Industries Holdings Inc.",
+      "Saudi Aramco",
+      "Tanium, Inc.",
+      "National Bureau of Economic Research",
+      "Johnson & Johnson",
+      "JPMorganChase",
+      "JUST Capital"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2019",
+    "director_until": ""
+  },
+  {
+    "id": "Mary C. Beckerle",
+    "initials": "MCB",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "Exelixis",
+      "Johnson & Johnson",
+      "Huntsman Corporation",
+      "National Cancer Institute",
+      "Howard Hughes Medical Institute"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2015",
+    "director_until": ""
+  },
+  {
+    "id": "Nadja Y. West",
+    "initials": "NYW",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "Tenet Healthcare Corporation",
+      "Mount St. Mary's University",
+      "Center for Naval Analysis",
+      "Tempus AI, Inc.",
+      "National Recreation Foundation",
+      "Nucor Corporation",
+      "The Olmsted Foundation",
+      "Johnson & Johnson",
+      "Tempus AI"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2020",
+    "director_until": ""
+  },
+  {
+    "id": "Paula A. Johnson",
+    "initials": "PAJ",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "Isabella Stewart Gardner Museum",
+      "Johnson & Johnson",
+      "Wellesley College",
+      "American Academy of Arts and Sciences",
+      "National Academy of Medicine",
+      "The Rockefeller University"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2023",
+    "director_until": ""
+  },
+  {
+    "id": "John G. Morikis",
+    "initials": "JGM",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "General Mills, Inc.",
+      "University Hospitals Health System, Inc.",
+      "Johnson & Johnson",
+      "Whirlpool Corporation",
+      "United Parcel Service, Inc."
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2025",
+    "director_until": ""
+  },
+  {
+    "id": "Daniel E. Pinto",
+    "initials": "DEP",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Institute of International Finance",
+      "JPMorganChase",
+      "Johnson & Johnson"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2025",
+    "director_until": ""
+  },
+  {
+    "id": "Eugene A. Woods",
+    "initials": "EAW",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Advocate Health",
+      "Federal Reserve Bank of Richmond",
+      "Johnson & Johnson",
+      "American Hospital Association"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2023",
+    "director_until": ""
+  },
+  {
+    "id": "Rebecca B. Roberts",
+    "initials": "RBR",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2018",
+    "director_until": ""
+  },
+  {
+    "id": "Brett J. Hart",
+    "initials": "BJH",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "United Airlines Holdings, Inc.",
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2016",
+    "director_until": ""
+  },
+  {
+    "id": "Edward J. Rapp",
+    "initials": "EJR",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "University of Missouri College of Business Advisory Board",
+      "Xos, Inc.",
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2013",
+    "director_until": ""
+  },
+  {
+    "id": "Jennifer L. Davis",
+    "initials": "JLD",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "Procter & Gamble",
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2023",
+    "director_until": ""
+  },
+  {
+    "id": "Melody B. Meyer",
+    "initials": "MBM",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "bp p.l.c.",
+      "Women with Energy LLC",
+      "Melody Meyer Energy, LLC",
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2017",
+    "director_until": ""
+  },
+  {
+    "id": "Rick Waddell",
+    "initials": "RW",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2012",
+    "director_until": ""
+  },
+  {
+    "id": "Robert A. Michael",
+    "initials": "RAM",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2024",
+    "director_until": ""
+  },
+  {
+    "id": "Robert Alpern",
+    "initials": "RA",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2013",
+    "director_until": ""
+  },
+  {
+    "id": "Roxanne S. Austin",
+    "initials": "RSA",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "Crowdstrike, Inc.",
+      "Verizon Communications Inc.",
+      "Freshworks, Inc.",
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2013",
+    "director_until": ""
+  },
+  {
+    "id": "Susan E. Quaggin",
+    "initials": "SEQ",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "Association of American Physicians",
+      "Northwestern University Feinberg School of Medicine",
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2023",
+    "director_until": ""
+  },
+  {
+    "id": "Thomas C. Freyman",
+    "initials": "TCF",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2020",
+    "director_until": ""
+  },
+  {
+    "id": "Willie Burnside",
+    "initials": "WB",
+    "role": "Board member",
+    "category": "executive",
+    "orgs": [
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "pipeline"
+    ],
+    "director_since": "2013",
+    "director_until": ""
+  },
+  {
+    "id": "Frederick H. Waddell",
+    "initials": "FHW",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "International Business Machines Corporation",
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2013",
+    "director_until": ""
+  },
+  {
+    "id": "Thomas J. Falk",
+    "initials": "TJF",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Baker Institute",
+      "AbbVie",
+      "Boys and Girls Clubs of America",
+      "Bipartisan Policy Center",
+      "Lockheed Martin"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2025",
+    "director_until": ""
+  },
+  {
+    "id": "William H.L. Burnside",
+    "initials": "WHB",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "AbbVie"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2013",
+    "director_until": ""
+  },
+  {
+    "id": "Severin Schwan",
+    "initials": "SS",
+    "role": "Chairman",
+    "category": "executive",
+    "orgs": [
+      "Roche"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "ir_claude"
+    ],
+    "director_since": "2013",
+    "director_until": ""
+  },
+  {
+    "id": "Andr\u00e9 Hoffmann",
+    "initials": "AH",
+    "role": "Vice-Chairman",
+    "category": "executive",
+    "orgs": [
+      "Roche"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "ir_claude"
+    ],
+    "director_since": "1996",
+    "director_until": ""
+  },
+  {
+    "id": "J\u00f6rg Duschmal\u00e9",
+    "initials": "JD",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Roche"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "ir_claude"
+    ],
+    "director_since": "2020",
+    "director_until": ""
+  },
+  {
+    "id": "Patrick Frost",
+    "initials": "PF",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Roche"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "ir_claude"
+    ],
+    "director_since": "2020",
+    "director_until": ""
+  },
+  {
+    "id": "Anita Hauser",
+    "initials": "AH",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Roche"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "ir_claude"
+    ],
+    "director_since": "2017",
+    "director_until": ""
+  },
+  {
+    "id": "Akiko Iwasaki",
+    "initials": "AI",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Roche"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "ir_claude"
+    ],
+    "director_since": "2023",
+    "director_until": ""
+  },
+  {
+    "id": "Richard P. Lifton",
+    "initials": "RPL",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Roche"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "ir_claude"
+    ],
+    "director_since": "2015",
+    "director_until": ""
+  },
+  {
+    "id": "Jemilah Mahmood",
+    "initials": "JM",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Roche"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "ir_claude"
+    ],
+    "director_since": "2022",
+    "director_until": ""
+  },
+  {
+    "id": "Lubomira Rochet",
+    "initials": "LR",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Roche"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "ir_claude"
+    ],
+    "director_since": "2026",
+    "director_until": ""
+  },
+  {
+    "id": "Mark Schneider",
+    "initials": "MS",
+    "role": "Independent Director",
+    "category": "executive",
+    "orgs": [
+      "Roche"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "ir_claude"
+    ],
+    "director_since": "2023",
+    "director_until": ""
+  },
+  {
+    "id": "Eric Lefkofsky",
+    "initials": "EL",
+    "role": "Founder, Chief Executive Officer, Chairman",
+    "category": "executive",
+    "orgs": [
+      "Pathos AI, Inc.",
+      "Northwestern Memorial Healthcare",
+      "Tempus AI",
+      "Lightbank LLC"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "",
+    "director_until": ""
+  },
+  {
+    "id": "Peter J. Barris",
+    "initials": "PJB",
+    "role": "Director",
+    "category": "executive",
+    "orgs": [
+      "Sprout Social, Inc.",
+      "Tempus AI",
+      "New Enterprise Associates, Inc.",
+      "Northwestern University"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2017",
+    "director_until": ""
+  },
+  {
+    "id": "Eric D. Belcher",
+    "initials": "EDB",
+    "role": "Director",
+    "category": "executive",
+    "orgs": [
+      "Tempus AI",
+      "Numerator"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2019",
+    "director_until": ""
+  },
+  {
+    "id": "David R. Epstein",
+    "initials": "DRE",
+    "role": "Director",
+    "category": "executive",
+    "orgs": [
+      "Valo Health, LLC",
+      "Pelican Harbor Seabird Station",
+      "Ottimo Pharma Limited",
+      "Agomab Therapeutics NV",
+      "Three Opinions Foundation Inc",
+      "Tempus AI"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2024",
+    "director_until": ""
+  },
+  {
+    "id": "Wayne A.I. Frederick",
+    "initials": "WAF",
+    "role": "Director",
+    "category": "executive",
+    "orgs": [
+      "Workday, Inc.",
+      "Insulet Corp",
+      "Howard University",
+      "Humana Inc.",
+      "Tempus AI"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2020",
+    "director_until": ""
+  },
+  {
+    "id": "Scott Gottlieb",
+    "initials": "SG",
+    "role": "Director",
+    "category": "executive",
+    "orgs": [
+      "Pfizer Inc.",
+      "Mount Sinai Health System",
+      "Tempus AI",
+      "Illumina, Inc.",
+      "New Enterprise Associates, Inc.",
+      "Wesleyan University",
+      "American Enterprise Institute",
+      "UnitedHealth Group"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2019",
+    "director_until": ""
+  },
+  {
+    "id": "Theodore J. Leonsis",
+    "initials": "TJL",
+    "role": "Director",
+    "category": "executive",
+    "orgs": [
+      "Revolution Growth",
+      "Groupon, Inc.",
+      "American Express Co.",
+      "Monumental Sports & Entertainment, LLC",
+      "Tempus AI"
+    ],
+    "notes": "",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "sec_claude"
+    ],
+    "director_since": "2019",
+    "director_until": ""
   }
 ]

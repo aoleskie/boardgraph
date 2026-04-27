@@ -1,58 +1,915 @@
 [
-  { "id": "Moderna",          "type": "biotech",   "ticker": "MRNA",  "cik": "0001682852", "wikipedia": "Moderna",           "notes": "" },
-  { "id": "BioNTech",         "type": "biotech",   "ticker": "BNTX",  "cik": "0001776197", "wikipedia": "BioNTech",          "notes": "" },
-  { "id": "Regeneron",        "type": "biotech",   "ticker": "REGN",  "cik": "0000872589", "wikipedia": "Regeneron_Pharmaceuticals", "notes": "" },
-  { "id": "Vertex",           "type": "biotech",   "ticker": "VRTX",  "cik": "0000875320", "wikipedia": "Vertex_Pharmaceuticals",   "notes": "" },
-  { "id": "Biogen",           "type": "biotech",   "ticker": "BIIB",  "cik": "0000875045", "wikipedia": "Biogen",            "notes": "" },
-  { "id": "Alnylam",          "type": "biotech",   "ticker": "ALNY",  "cik": "0001178670", "wikipedia": "Alnylam_Pharmaceuticals",  "notes": "" },
-  { "id": "Intellia",         "type": "biotech",   "ticker": "NTLA",  "cik": "0001650664", "wikipedia": "Intellia_Therapeutics",    "notes": "" },
-  { "id": "Blueprint Med",    "type": "biotech",   "ticker": "BPMC",  "cik": "0001597313", "wikipedia": "Blueprint_Medicines",      "notes": "" },
-  { "id": "Relay Tx",         "type": "biotech",   "ticker": "RLAY",  "cik": "0001743907", "wikipedia": "Relay_Therapeutics",       "notes": "" },
-  { "id": "Beam Tx",          "type": "biotech",   "ticker": "BEAM",  "cik": "0001745033", "wikipedia": "Beam_Therapeutics",        "notes": "" },
-  { "id": "Recursion",        "type": "biotech",   "ticker": "RXRX",  "cik": "0001628171", "wikipedia": "Recursion_Pharmaceuticals","notes": "" },
-  { "id": "AbCellera",        "type": "biotech",   "ticker": "ABCL",  "cik": "0001819316", "wikipedia": "AbCellera",         "notes": "" },
-  { "id": "Editas Medicine",  "type": "biotech",   "ticker": "EDIT",  "cik": "0001651311", "wikipedia": "Editas_Medicine",   "notes": "" },
-  { "id": "CRISPR Tx",        "type": "biotech",   "ticker": "CRSP",  "cik": "0001674930", "wikipedia": "CRISPR_Therapeutics","notes": "" },
-  { "id": "23andMe",          "type": "biotech",   "ticker": "ME",    "cik": "0001804176", "wikipedia": "23andMe",           "notes": "" },
-  { "id": "Insitro",          "type": "biotech",   "ticker": null,    "cik": null,         "wikipedia": "Insitro",           "notes": "Private" },
-  { "id": "Prime Medicine",   "type": "biotech",   "ticker": "PRME",  "cik": "0001840199", "wikipedia": "Prime_Medicine",    "notes": "" },
-  { "id": "Egenesis",         "type": "biotech",   "ticker": null,    "cik": null,         "wikipedia": null,                "notes": "Private" },
-  { "id": "Pfizer",           "type": "pharma",    "ticker": "PFE",   "cik": "0000078003", "wikipedia": "Pfizer",            "notes": "" },
-  { "id": "Merck",            "type": "pharma",    "ticker": "MRK",   "cik": "0000310158", "wikipedia": "Merck_%26_Co.",     "notes": "" },
-  { "id": "AstraZeneca",      "type": "pharma",    "ticker": "AZN",   "cik": "0000901832", "wikipedia": "AstraZeneca",       "notes": "" },
-  { "id": "Novartis",         "type": "pharma",    "ticker": "NVS",   "cik": "0001114448", "wikipedia": "Novartis",          "notes": "" },
-  { "id": "Roche/Genentech",  "type": "pharma",    "ticker": "RHHBY", "cik": "0001122304", "wikipedia": "Roche",             "notes": "" },
-  { "id": "Eli Lilly",        "type": "pharma",    "ticker": "LLY",   "cik": "0000059478", "wikipedia": "Eli_Lilly_and_Company","notes": "" },
-  { "id": "Bristol Myers",    "type": "pharma",    "ticker": "BMY",   "cik": "0000014272", "wikipedia": "Bristol_Myers_Squibb","notes": "" },
-  { "id": "J&J",              "type": "pharma",    "ticker": "JNJ",   "cik": "0000200406", "wikipedia": "Johnson_%26_Johnson","notes": "" },
-  { "id": "Sanofi",           "type": "pharma",    "ticker": "SNY",   "cik": "0001121404", "wikipedia": "Sanofi",            "notes": "" },
-  { "id": "GSK",              "type": "pharma",    "ticker": "GSK",   "cik": "0001131399", "wikipedia": "GSK_plc",           "notes": "" },
-  { "id": "OpenAI",           "type": "tech",      "ticker": null,    "cik": null,         "wikipedia": "OpenAI",            "notes": "Private" },
-  { "id": "Google/Alphabet",  "type": "tech",      "ticker": "GOOGL", "cik": "0001652044", "wikipedia": "Alphabet_Inc.",     "notes": "" },
-  { "id": "Microsoft",        "type": "tech",      "ticker": "MSFT",  "cik": "0000789019", "wikipedia": "Microsoft",         "notes": "" },
-  { "id": "Apple",            "type": "tech",      "ticker": "AAPL",  "cik": "0000320193", "wikipedia": "Apple_Inc.",        "notes": "" },
-  { "id": "Illumina",         "type": "tech",      "ticker": "ILMN",  "cik": "0001110803", "wikipedia": "Illumina,_Inc.",    "notes": "" },
-  { "id": "Nvidia",           "type": "tech",      "ticker": "NVDA",  "cik": "0001045810", "wikipedia": "Nvidia",            "notes": "" },
-  { "id": "Palantir",         "type": "tech",      "ticker": "PLTR",  "cik": "0001321655", "wikipedia": "Palantir_Technologies","notes": "" },
-  { "id": "Amazon",           "type": "tech",      "ticker": "AMZN",  "cik": "0001018724", "wikipedia": "Amazon_(company)",  "notes": "" },
-  { "id": "MIT",              "type": "academia",  "ticker": null,    "cik": null,         "wikipedia": "Massachusetts_Institute_of_Technology","notes": "" },
-  { "id": "Harvard",          "type": "academia",  "ticker": null,    "cik": null,         "wikipedia": "Harvard_University","notes": "" },
-  { "id": "Stanford",         "type": "academia",  "ticker": null,    "cik": null,         "wikipedia": "Stanford_University","notes": "" },
-  { "id": "UCSF",             "type": "academia",  "ticker": null,    "cik": null,         "wikipedia": "University_of_California,_San_Francisco","notes": "" },
-  { "id": "Broad Institute",  "type": "academia",  "ticker": null,    "cik": null,         "wikipedia": "Broad_Institute",   "notes": "" },
-  { "id": "Wyss Institute",   "type": "academia",  "ticker": null,    "cik": null,         "wikipedia": "Wyss_Institute_for_Biologically_Inspired_Engineering","notes": "" },
-  { "id": "Princeton",        "type": "academia",  "ticker": null,    "cik": null,         "wikipedia": "Princeton_University","notes": "" },
-  { "id": "UC Berkeley",      "type": "academia",  "ticker": null,    "cik": null,         "wikipedia": "University_of_California,_Berkeley","notes": "" },
-  { "id": "Max Planck",       "type": "academia",  "ticker": null,    "cik": null,         "wikipedia": "Max_Planck_Society","notes": "" },
-  { "id": "Rockefeller",      "type": "academia",  "ticker": null,    "cik": null,         "wikipedia": "Rockefeller_University","notes": "" },
-  { "id": "Johns Hopkins",    "type": "academia",  "ticker": null,    "cik": null,         "wikipedia": "Johns_Hopkins_University","notes": "" },
-  { "id": "Yale",             "type": "academia",  "ticker": null,    "cik": null,         "wikipedia": "Yale_University",   "notes": "" },
-  { "id": "Flagship Pioneering",   "type": "vc",   "ticker": null,    "cik": null,         "wikipedia": "Flagship_Pioneering","notes": "" },
-  { "id": "Third Rock Ventures",   "type": "vc",   "ticker": null,    "cik": null,         "wikipedia": "Third_Rock_Ventures","notes": "" },
-  { "id": "ARCH Venture",          "type": "vc",   "ticker": null,    "cik": null,         "wikipedia": "ARCH_Venture_Partners","notes": "" },
-  { "id": "a16z Bio",              "type": "vc",   "ticker": null,    "cik": null,         "wikipedia": null,                "notes": "a16z bio fund" },
-  { "id": "Foresite Capital",      "type": "vc",   "ticker": null,    "cik": null,         "wikipedia": "Foresite_Capital",  "notes": "" },
-  { "id": "Sofinnova",             "type": "vc",   "ticker": null,    "cik": null,         "wikipedia": "Sofinnova_Partners","notes": "" },
-  { "id": "OrbiMed",               "type": "vc",   "ticker": null,    "cik": null,         "wikipedia": null,                "notes": "" },
-  { "id": "RA Capital",            "type": "vc",   "ticker": null,    "cik": null,         "wikipedia": null,                "notes": "" }
+  {
+    "id": "Eli Lilly",
+    "type": "pharma",
+    "ticker": "LLY",
+    "cik": "0000059478",
+    "wikipedia": "Eli_Lilly",
+    "notes": "market cap $789.7B"
+  },
+  {
+    "id": "Adobe Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Archer-Daniels-Midland Company",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Centessa Pharmaceuticals plc",
+    "type": "biotech",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "First Watch Restaurant Group, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "IQVIA Holdings Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "International Flavors & Fragrances Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Lowe's Companies, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Mastercard Incorporated",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "OmniAb, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Procter & Gamble Company",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Traeger, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "VEEVA Systems Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Johnson & Johnson",
+    "type": "pharma",
+    "ticker": "JNJ",
+    "cik": "0000200406",
+    "wikipedia": "Johnson_&_Johnson",
+    "notes": "market cap $547.6B"
+  },
+  {
+    "id": "Advocate Health",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Alignment Healthcare",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "American Academy of Arts and Sciences",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "American Hospital Association",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Business Council",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Business Roundtable",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Caribou Biosciences, Inc.",
+    "type": "biotech",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Center for Naval Analysis",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Chevron Corporation",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Cigna Corporation",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Exelixis",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Federal Reserve Bank of Richmond",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "General Mills, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "HEC Paris",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Howard Hughes Medical Institute",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Huntsman Corporation",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Institute of International Finance",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Intellia Therapeutics, Inc.",
+    "type": "biotech",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Isabella Stewart Gardner Museum",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "JPMorganChase",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "JUST Capital",
+    "type": "vc",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "MetLife Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Mount St. Mary's University",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "National Academy of Medicine",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "National Alliance for Hispanic Health",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "National Bureau of Economic Research",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "National Cancer Institute",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "National Recreation Foundation",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "New Jersey CEO Council",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "New York Public Library",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Nucor Corporation",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "PrognomIQ, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Research! America",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "S&P Global, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Saudi Aramco",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Sciences Po American Foundation",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Spain-U.S. Chamber of Commerce",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Stone Canyon Industries Holdings Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Tanium, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Tempus AI, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Teneo",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Tenet Healthcare Corporation",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "The Olmsted Foundation",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "The Rockefeller University",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "United Parcel Service, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "United States of Care",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "University Hospitals Health System, Inc.",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Wellesley College",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Whirlpool Corporation",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "AbbVie",
+    "type": "pharma",
+    "ticker": "ABBV",
+    "cik": "0001551152",
+    "wikipedia": "AbbVie",
+    "notes": "market cap $351.5B"
+  },
+  {
+    "id": "Association of American Physicians",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Baker Institute",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Bipartisan Policy Center",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Boys and Girls Clubs of America",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Crowdstrike, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Freshworks, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "International Business Machines Corporation",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Lockheed Martin",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Melody Meyer Energy, LLC",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Northwestern University Feinberg School of Medicine",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Procter & Gamble",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "United Airlines Holdings, Inc.",
+    "type": "vc",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "University of Missouri College of Business Advisory Board",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Verizon Communications Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Women with Energy LLC",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Xos, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "bp p.l.c.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Roche",
+    "type": "pharma",
+    "ticker": "RO.SW",
+    "cik": null,
+    "wikipedia": "Roche",
+    "ir_url": "https://www.roche.com/about/governance/board-of-directors",
+    "notes": "market cap $335.8B"
+  },
+  {
+    "id": "AstraZeneca",
+    "type": "pharma",
+    "ticker": "AZN",
+    "cik": "0000901832",
+    "wikipedia": "AstraZeneca",
+    "notes": "market cap $294.2B"
+  },
+  {
+    "id": "Tempus AI",
+    "type": "other",
+    "ticker": "TEM",
+    "cik": "0001717115",
+    "wikipedia": "Tempus_AI",
+    "notes": "market cap $9.4B"
+  },
+  {
+    "id": "Agomab Therapeutics NV",
+    "type": "biotech",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "American Enterprise Institute",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "American Express Co.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Groupon, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Howard University",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Humana Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Illumina, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Insulet Corp",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Lightbank LLC",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Monumental Sports & Entertainment, LLC",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Mount Sinai Health System",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "NCAA Board of Governors",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "New Enterprise Associates, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Northwestern Memorial Healthcare",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Northwestern University",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Numerator",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Ottimo Pharma Limited",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Pathos AI, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Pelican Harbor Seabird Station",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Pfizer Inc.",
+    "type": "pharma",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Revolution Growth",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Sprout Social, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Tenet Healthcare Corp",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "The Woodruff Foundation",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Three Opinions Foundation Inc",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "UnitedHealth Group",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "University of California Berkeley",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Valo Health, LLC",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Wesleyan University",
+    "type": "academia",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  },
+  {
+    "id": "Workday, Inc.",
+    "type": "other",
+    "ticker": null,
+    "cik": null,
+    "wikipedia": null,
+    "notes": "auto-added by pipeline"
+  }
 ]
